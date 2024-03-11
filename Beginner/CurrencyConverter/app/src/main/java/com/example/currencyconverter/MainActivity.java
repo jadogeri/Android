@@ -9,11 +9,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private Log logger = new Log();
     String numberString = "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void clickHandler(View view) {
@@ -24,10 +26,14 @@ public class MainActivity extends AppCompatActivity {
             double dollarValue = getDollarValue(euroValue);
             TextView textvalue = findViewById(R.id.textValue);
             textvalue.setText("$" + String.valueOf(dollarValue));
+            logger.setCount(0);
 
 
         }catch(Exception e){
-            Toast.makeText(this, " The value : " + numberString + " is not a number", Toast.LENGTH_SHORT).show();
+            String log = logger.getMessage(numberString);
+            Toast.makeText(this, log, Toast.LENGTH_SHORT).show();
+
+
         }
 
     }
