@@ -19,6 +19,12 @@ This mobile app takes in user inputs ,converts EU currency to US dollars
 
 - [Screenshots](#screenshots)
 - [Installation](#installation)
+    - [Download Java for Windows](#download-java-for-windows)
+    - [Install Java on Windows 10](#install-java-on-windows-10)
+    - [Set Environmental Variables in Java](#set-environmental-variables-in-java)
+        - [Step 1: Add Java to System Variables](#step-1-add-java-to-system-variables)
+        - [Step 2: Add JAVA_HOME Variable](#step-2-add-java_home-variable)
+    - [Install Android Studio](#install-android-studio)
 - [Tech Stack](#tech-stack)
 - [Usage](#usage)
 - [Tests](#tests)
@@ -29,8 +35,9 @@ This mobile app takes in user inputs ,converts EU currency to US dollars
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+|![Screenshot 1](assets/images/Screenshot1.png)    |  ![Screenshot 2](assets/images/Screenshot2.png) |                 
+| ![Screenshot 3](assets/images/Screenshot3.png) | ![Screenshot 4](assets/images/Screenshot4.png)
+ | 
 
 ## Installation
 
@@ -106,6 +113,19 @@ Some applications require the JAVA_HOME variable to point to the JDK installatio
 
 4. Click OK.
 
+## Install Android Studio
+
+1. Download the latest version of Android Studio using this [link](https://developer.android.com/studio).
+
+If you downloaded an .exe file (recommended), double-click to launch it.
+
+If you downloaded a .zip file:
+- Unpack the .zip.
+- Copy the android-studio folder into your Program Files folder.
+- Open the android-studio > bin folder.
+- Launch studio64.exe (for 64-bit machines) or studio.exe (for 32-bit machines).
+- Follow the Setup Wizard in Android Studio and install any recommended SDK packages.
+
 
 ## Tech Stack
 
@@ -159,6 +179,7 @@ To run tests, run the following command
 ```bash
   npm run test
 ```
+![tests](assets/images/tests.png)
 
 
 ## About Me  
@@ -178,3 +199,5 @@ I'm a Database Programmer learning Mobile Development using Java...
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
  - [How to write Junit Test](https://www.youtube.com/watch?v=rsl7VpB2tSw)
+ - [How to install android on windows](https://developer.android.com/studio/install)
+ - [How to install Java JDK on windows](https://phoenixnap.com/kb/install-java-windows)
