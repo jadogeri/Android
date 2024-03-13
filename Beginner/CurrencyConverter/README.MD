@@ -27,6 +27,7 @@ This mobile app takes in user inputs ,converts EU currency to US dollars
     - [Install Android Studio](#install-android-studio)
 - [Tech Stack](#tech-stack)
 - [Usage](#usage)
+    -[Run Locally](#run-locally)
 - [Tests](#tests)
 - [About me](#about-me)
 - [License](#license)
@@ -165,22 +166,25 @@ Go to the project directory
   cd Android/Beginner/CurrencyConverter
 ```
 
-Start the server
+Start project
 
-```bash
-  npm run start
-```
+1. Open Android Studio.
+2. On the top tab bar, select File --> Open.
+3. Navigate to location project was saved i.e Android/Beginner/CurrencyConverter.
+4. Select project and press ok.
+5. On the top tab bar, Press Run --> Run.
 
 
 ## Tests
 
-To run tests, run the following command
+1. Change to project view structure
+2. navigate to app/src/test unitTest/java/com.example.currencyconverter
+3. right click on LogTest.java and select , 
 
 ```bash
-  npm run test
+  run LogTest.java
 ```
 ![tests](assets/images/tests.png)
-
 
 ## About Me  
 🚀
@@ -189,8 +193,7 @@ I'm a Database Programmer learning Mobile Development using Java...
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
+[LICENSE](/LICENSE)
 
 ## Credits
 
