@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FamilyGuyFade</string>
+    <string name="name_continue_text">Enter Name To Continue...</string>
+    <string name="enter_name_text">ENTER NAME</string>
+    <string name="start_fade_text">START FADE</string>
+    <string name="fgf_text">Family Guy Fade</string>
+    <string name="welcome_text">Welcome </string>
+    <string name="meg">Meg</string>
+    <string name="brian">Brian</string>
+    <string name="peter">Peter</string>
+    <string name="stewie">Stewie</string>
+    <string name="lois">Lois</string>
+    <string name="chris">Chris</string>
+</resources>
